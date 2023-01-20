@@ -21,6 +21,7 @@ public class temperatura {
         }
         System.out.println("Media: " + temperatura.mediaSemestral(lista));
         temperatura.printTemperaturasOverMedia(lista);
+        scan.close();
     }
 
     public static double mediaSemestral(List<Double> lista) {
